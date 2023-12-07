@@ -5,3 +5,18 @@
 
 ## クリーンアーキテクチャ
 基本的にクリーンアーキテクチャを採用しており、以下の図のような構成になっております。
+![directory.png](img/directory.png) <br>
+コードの流れは、 <br>
+`router → controller → service → repository`となっています。
+
+各層の説明
+- router <br>
+  APIのパスを表している。ディレクトリ構成をパスと同じにすることで分かりやすくしている。 <br>
+- controller <br>
+  APIのリクエストを受け取り、レスポンスを返している。リクエストボディのバリデーションなども行なっている。 <br>
+- service <br>
+  ビジネスロジックを行なっている。また、DTOも行なっていて別にDTOを行う関数を分けている。 <br>
+- repository <br>
+  DBからエンティティの取得を行なっている。 <br>
+
+`controller`と`service`はディレクトリ、ファイルを細かく分けてあるが、これはAPIごとにファイルを分けていて
