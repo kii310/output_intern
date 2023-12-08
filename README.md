@@ -28,7 +28,7 @@
 
 ### DI
 各層では、依存性を作らないためにDIを行なっています。以下はcontroller層とservice層のコードで、最初にservice、redisを受け取ることでDIを行なっています。 <br>
-詳しい説明は[こちら DIについて]()
+詳しい説明は[こちら DIについて](DI.md)
 ```typescript:src/controller/user/show/index.ts
 import { usersService, UsersService } from '~/src/services/users';
 
