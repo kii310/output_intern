@@ -48,6 +48,6 @@
 | 21:50 ~ 22:00 | クロージング |
 
 ## 運営
-| 役割 | 名前 | GitHubアカウント | Xアカウント |
-| :-- | :-: | :-: | :-: |
-| 主催 | kii310 | [kii310](https://github.com/kii310) | [@kii310_nyan](https://x.com/kii310_nyan) |
+| 役割 | 名前 | Email | GitHubアカウント | Xアカウント |
+| :-- | :-: | :-: | :-: | :-: |
+| 主催 | kii310 | 1223kii@gmail.com | [kii310](https://github.com/kii310) | [@kii310_nyan](https://x.com/kii310_nyan) |
